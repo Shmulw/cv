@@ -1,0 +1,35 @@
+<!-- This file is a living notebook of the input types in html -->
+<label for="name">Name (4 to 8 characters):</label>
+<input
+  type="text"
+  id="name"
+  name="name"
+  required
+  minlength="4"
+  maxlength="8"
+  size="10"
+/>
+
+<input class="favorite styled" type="button" value="Add to favorites" />
+
+<p>Choose your monster's features:</p>
+<!-- The <div> tag defines a division or a section in an HTML document. -->
+<div>
+  <input type="checkbox" id="scales" name="scales" checked />
+  <label for="scales">Scales</label>
+</div>
+
+<div>
+  <input type="checkbox" id="horns" name="horns" />
+  <label for="horns">Horns</label>
+</div>
+
+<label for="date">Start date:</label>
+<input
+  type="date"
+  id="start"
+  name="trip-start"
+  value="2018-07-22"
+  min="2018-01-01"
+  max="2018-12-31"
+/>
